@@ -1,0 +1,209 @@
+/* general CSS */
+
+body {
+    background-color: #f3f3f3
+}
+
+a {
+    text-decoration: none;
+    color: #4E944F;
+}
+
+.th-sticky {
+    position: sticky;
+}
+
+.btn-print {
+    background-color: #fff;
+    color: #4E944F;
+    border: solid 1px #4E944F;
+}
+
+.btn-print:hover {
+    color: #fff;
+    background-color: #4E944F;
+    border: solid 1px #4E944F;
+    transition: all 0.5s ease;
+}
+
+.btn-hijau {
+    background-color: #4E944F;
+    color: #fff;
+}
+
+.btn-hijau:hover {
+    background-color: #1e691e;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #4E944F;
+    transition: all 0.5s ease;
+}
+
+.btn-merah {
+    background-color: #bb1c1c;
+    color: #fff;
+}
+
+.btn-merah:hover {
+    background-color: #a01616;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #bb1c1c;
+    transition: all 0.5s ease;
+}
+
+
+
+
+/* === */
+
+/* halaman dashboard petugas */
+.wrapper .sidebar{
+    width: 280px;
+    height: 97vh;
+    margin: 12px 8px 20px 8px; /* top right bottom left */
+    background: #4E944F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    padding: 20px 0;
+    box-shadow: 0 0 5px 0 #00000080;
+    
+}
+
+.wrapper .sidebar .profile{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile h4, .wrapper .sidebar .profile h5, .wrapper .sidebar .profile  {
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.sidebar hr {
+    color: #fff;
+}
+
+.wrapper .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrapper .sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .sidebar .logout_item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper .sidebar ul li a:hover {
+    background: #fff;
+    color: #4E944F;
+    border-right: 6px solid #00e34c;
+    transition: all 1s ease;
+}
+
+.sidecontent {
+    height: 96vh;
+    padding: 20px;
+    margin: 12px 8px 20px 280px; 
+}
+
+.pagging a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: solid 1px #69a57d;
+    color: #69a57d;
+    border-radius: 10px;
+}
+
+.pagging a:hover {
+    border: solid 1px #5de089;
+    background: #4c9163;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.indikator-halaman {
+    margin: 10px 0;
+    color: #69a57d;
+}
+
+.card-info {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px 0 #00000057;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-info:hover {
+    color: #4E944F;
+    box-shadow: 0 0 5px 0 #000000a2;
+    transition: all 0.3s ease;
+}
+
+.card-info .card-body img {
+    width: 50%;
+    float: right;
+}
+
+/* halaman dashboard petugas / about */
+
+.navigation {
+    background-color: #fff;
+    padding: 10px 0px 0px 0px;
+    margin: 20px;
+}
+.navigation .nav .nav-item a {
+    color: #4E944F;
+}
+
+.navigation .nav .nav-item a:hover {
+    color: #05d64b;
+    font-size: smaller;
+    transition: all 1s ease;
+}
+
+.main-section {
+    padding: 10px;
+}
+
+.card-foto {
+    box-shadow: 0 0 5px 0 #00000057;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bubble-card {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px 0 #00000057;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.edit-form {
+    border-left: solid 1px #4E944F;
+}
+
+
+/* ===== */
+
+/* ===== */
+
+/* top right bottom left */
